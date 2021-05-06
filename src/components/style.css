@@ -1,0 +1,135 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html {
+    font-family: "Montserrat", sans-serif;
+}
+body {
+    background-color: rgb(228, 228, 228);
+    /* background-color: #137599; */
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+header{
+    color:#fff;
+    padding: 14px;
+    background-color: rgb(126, 38, 199);
+    border-bottom: 1px solid rgb(184, 184, 184);
+    box-shadow: 0px 5px 10px  rgb(184, 184, 184);
+}
+.notesContainer {
+    padding: 20px;
+}
+.note {
+    padding: 12px;
+    background-color: #fff;
+    width: 100%;
+    display: inline-block;
+    border-radius: 4px;
+    padding-bottom: 25px;
+    box-shadow: 0px 0px 4px 3px  rgb(184, 184, 184);
+}
+.addNote {
+    padding: 8px 12px;
+    margin: 10px auto 10px;
+    border: 1px solid #ccc;
+    width: 400px;
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px 2px  rgb(184, 184, 184);
+}
+.addNoteInput {
+    display: inline-block;
+    padding: 8px 12px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.addNoteDesc {
+    padding: 8px 12px 2px;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+}
+.addNoteSubmitBtn {
+    padding: 4px 5px;
+    background-color: rgb(170, 94, 241);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -18px;
+    outline: none;
+    cursor: pointer;
+    right: 10%;
+    box-shadow: 0px 0px 6px 4px inset blueviolet;   
+}
+.addNoteSubmitBtn:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
+.showNotes {
+    width: 235px;
+    margin: 30px 10px;
+    display: inline-block;
+    position: relative;
+}
+.deleteBtn {
+    position: absolute;
+    bottom: 5px;
+    right: 8px;
+    color: blueviolet;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #fff;
+}
+.contacts {
+    width: 200px;
+    margin: 0px auto;
+    padding: 8px 14px;
+    text-align: center;
+    box-shadow: 0px 5px 8px 5px blueviolet, 0px 5px 8px inset blueviolet;
+    border-radius: 4px;
+    color: blueviolet;
+}
+.card {
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+    padding: 40px 20px;
+}
+.card img {
+    height: 250px;
+    width: 250px;
+    border: 7px solid #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 2px 8px 3px rgb(160, 160, 160);
+}
+.card img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 8px 5px rgb(98, 98, 98);
+    transition: transform 0.2s;
+}
+.card h2 {
+    color: blueviolet;
+    padding: 10px 0px 5px;
+}
+.email {
+    color: rgb(73, 73, 73);
+}
+.footer {
+    position: fixed;
+    left: 45%;
+    bottom: 0;
+    width: auto;
+    color: rgb(73, 73, 73);
+    text-align: center;
+    margin-bottom: 5px;
+}
